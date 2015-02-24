@@ -1,0 +1,34 @@
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\resources.pri
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\AppxManifest.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\Data Structure Tutorial.build.appxrecipe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\App.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\App.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\Common\StandardStyles.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\ItemPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\ItemPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\MainPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\MainPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\XamlTypeInfo.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\App.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\Common\StandardStyles.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\ItemPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\MainPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\priconfig.xml.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\layout.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\resources.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\pri.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\priconfig.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\layout.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\resources.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\pri.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\LanguageQualifiers.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Release\ProjectArchitectures.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Release\MicrosoftAdvertising.xml

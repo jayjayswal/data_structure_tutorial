@@ -1,0 +1,166 @@
+Class Definition 
+
+class queue
+{
+	int * q;
+	int size;
+	int front,rear;
+public:
+queue(int n)
+{
+	q=new int[n];
+	front=rear=-1;
+	size=n;
+}
+bool isempty();
+bool isfull();
+void append(int item);
+int remove();
+void display();
+};
+
+Implementation
+
+#include "cqueue.h"
+#include<iostream>
+using namespace std;
+bool queue::isempty()
+{
+
+	if(front==-1)
+			return true;
+	else 
+	{
+		return false;
+	}
+}
+bool queue::isfull()
+{
+	if(((front==0)&&(rear==size-1)) || (front==(rear+1)))
+			return true;
+	else 
+	{
+		return false;
+	}
+}
+void queue::append(int item)
+{
+	if(!isfull())
+	{
+	    if(front==-1)			// first condition
+		{
+		    front=0;
+		    rear=0;
+		}
+		else
+	    {
+		    if (rear==size-1)	//second condition
+		    {	rear=0;	}
+		    else				//third condition
+			{   rear=rear+1;  }
+	    }
+		q[rear]=item;
+	}
+	else cout<<"\nNothing can be Appended!!";
+
+	
+}
+int queue::remove()
+{
+	
+	int k=0;
+	if(!isempty())
+	{
+		
+		k=q[front];
+		q[front]=NULL;
+		if(front==rear)			//first condition
+			front=rear=-1;
+		else
+		{
+			if(front==size-1)	//second condition
+			{
+				front=0;
+			}
+			else				//third condition
+			{
+				front=front+1;
+			}
+		}
+		
+	}
+	else 
+	{
+		cout<<"\nThe Queue is already Empty!!!";
+	}
+	return k;
+}
+void queue::display()
+{
+	
+	if(!isempty())
+	{
+		if(rear<front)
+		{
+			for(int i=front;i<size;i++)
+			cout<<"["<<i<<"]"<<" "<<q[i]<<endl;
+			for(int i=0;i<front;i++)
+			cout<<"["<<i<<"]"<<" "<<q[i]<<endl;
+		}
+		else
+		{
+			for(i=front;i<=rear;i++)
+			{
+				cout<<i<<q[i]<<"\n";
+			}
+		}
+	}
+	else
+	{
+		cout<<"\nQueue is Empty.....!!!";
+	}
+}
+
+APPLICATION
+
+#include<iostream>
+#include "cqueue.h"
+using namespace std;
+void main()
+{
+
+int x,y,n;
+cout<<"Input the size of Queue : ";
+cin>>n;
+queue omg(n);
+do
+{
+cout<<"\n\t\t\tMENU"
+	<<"\n  _________________________________________\n"
+	<<"\n\t To Append\t\tPress 1"
+	<<"\n\t To Remove\t\tPress 2"
+	<<"\n\t To Display\t\tPress 3"
+	<<"\n\t To Exit\t\tPress 4"
+	<<"\n  _________________________________________\n"
+	<<endl;
+	cin>>x;
+cout<<endl;
+switch (x)
+{
+	case 1:
+		cout<<"\nEnter the Value : ";
+		cin>>y;
+		omg.append(y);
+		break;
+	case 2:
+		omg.remove();
+		break;
+	case 3:
+		omg.display();
+		break;
+	case 4:
+		exit(0);
+	default:"Invalid";
+}
+}while(x!=4);
+}

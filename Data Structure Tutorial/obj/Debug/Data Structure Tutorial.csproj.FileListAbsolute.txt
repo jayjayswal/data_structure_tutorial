@@ -1,0 +1,67 @@
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\resources.pri
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\AppxManifest.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.build.appxrecipe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\App.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\App.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\MainPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\MainPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\App.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\MainPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\priconfig.xml.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\layout.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\resources.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\pri.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\priconfig.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\layout.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\resources.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\pri.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\LanguageQualifiers.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\ProjectArchitectures.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\resources.pri
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\AppxManifest.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.build.appxrecipe
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\App.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\App.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\MainPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\MainPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Stack.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Stack.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\App.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\MainPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Stack.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Data Structure Tutorial.exe
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\Data Structure Tutorial.pdb
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\priconfig.xml.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\layout.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\resources.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\pri.resfiles.intermediate
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\priconfig.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\layout.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\resources.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\pri.resfiles
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\LanguageQualifiers.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\ProjectArchitectures.txt
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\ItemPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\ItemPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\obj\Debug\ItemPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\ItemPage.g.i.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\ItemPage.g.cs
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\obj\Debug\ItemPage.xaml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\MicrosoftAdvertising.xml

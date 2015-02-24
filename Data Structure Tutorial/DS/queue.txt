@@ -1,0 +1,159 @@
+Class Definition 
+
+#define N 20
+class queue
+{
+	int q[N];
+	int front,rear;
+	int size;
+	int n;
+	
+public:
+	queue(int r);
+
+
+	bool isfull();
+	bool isempty();
+	void add(int);
+	void dele();
+	void display();
+};
+
+Implementation
+
+#include"classqueue.h"
+#include<iostream>
+using namespace std;
+queue::queue(int r)
+{
+
+	front=rear=-1;
+	n=r;
+}
+bool queue::isempty()
+{
+	if(rear==-1)
+	{
+		return true;
+	}
+	else
+		return false;
+}
+bool queue::isfull()
+{
+	if(rear>=n-1)
+	{
+		if(front==0)
+		{
+		return true;
+		}
+		else
+		{
+			int i,j;
+			for(i=front,j=0;i<=rear;i++,j++)
+			{
+				q[j]=q[i];
+			}
+			/*cout<<"after :"<<front<<"    "<<rear;*/
+			front=0;
+			rear=j-1;
+			/*cout<<"after :"<<front<<"    "<<rear<<endl;*/
+		}
+	}
+	return false;
+}
+void queue::add(int r)
+{
+	if(!isfull())
+	{
+		if(front==-1)
+		{
+			front=0;
+		}
+		q[++rear]=r;
+		display();
+	}
+	else
+		cout<<"\nqueue is full.........";
+}
+void queue::dele()
+{
+	if(!isempty())
+	{
+		
+		cout<<"\nremoved element is : "<<q[front]<<endl;
+		if(front==rear)
+		{
+			front=rear=-1;
+		}
+		else
+		{
+		front++;
+		}
+		
+		display();
+		
+	}
+	else
+		cout<<"\nqueue is empty.......";
+}
+void queue::display()
+{
+	if(!isempty())
+	{
+	for(int i=front;i<=rear;i++)
+	{
+			cout<<"q["<<i<<"] = "<<q[i]<<endl;
+	}
+	}
+	else
+		cout<<"\nqueue is empty.......";
+
+}
+
+APPLICATION
+
+#include"classqueue.h"
+#include<iostream>
+using namespace std;
+void main()
+{
+	int c,n;
+	cout<<"\n Enter the Number of element : ";
+	cin>>n;
+	queue r(n);
+	do
+	{
+		cout<<"\n..........................menu...................."<<endl
+			<<"press 1 to Display."<<endl
+			<<"press 2 to Insert."<<endl
+			<<"press 3 to delete."<<endl
+			<<"press 4 to exit."<<endl;
+		cout<<endl;
+		cout<<endl;
+		cout<<"Enter your choise:";
+		cin>>c;
+
+		cout<<endl;
+		switch(c)
+		{
+			case 1:
+				r.display();
+				break;
+			case 2:
+				int d;
+				cout<<"enter a element to insert : ";
+				cin>>d;
+				cout<<endl;
+				r.add(d);
+				break;
+			case 3:
+				r.dele();
+				break;
+			case 4:
+				exit(0);
+			default:
+				cout<<"Invalid choice....";
+		}
+	}while(c!=4);
+}

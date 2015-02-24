@@ -1,0 +1,175 @@
+...............Haeader File...............
+#define N 10
+class tstack
+{
+	int arr[N],top1,top2;
+public:
+	tstack()
+	{
+		top1=-1;
+		top2=N;
+	}
+	void push();
+	int pop();
+	short isempty(short sq);
+	bool isfull();
+	void display();	
+};
+
+
+
+
+________________ Implementation file _______________________
+#include<iostream>
+using namespace std;
+#include"stack_class.h"
+
+bool tstack::isfull()
+{
+	if((top1)==(top2-1))
+	{
+		
+		cout<<"\nstack is overflow\n";
+		return true;
+	}
+	else
+		return false;
+}
+short tstack::isempty(short sq)
+{
+	if(sq==1)
+	{
+		return(top1==-1);
+	}
+	else
+		return (top2==N);
+}
+
+
+void tstack::push()
+{
+	int element,c;
+	if(isfull()==true)
+	{
+		cout<<"stack is full.....";
+	}
+	else
+	{
+		cout<<"Enter a stack no. in which u wont to enter a value: ";
+		cin>>c;
+		cout<<"Enter a element:";
+		cin>>element;
+		if(c==1)
+		{
+		top1++;
+		arr[top1]=element;
+		cout<<endl<<element<<" is inserted into stack1.";
+		}
+		else
+		{
+		top2--;
+		arr[top2]=element;
+		cout<<endl<<element<<" is inserted into stack2.";
+		}
+	}
+}
+
+int tstack::pop()
+{
+
+	
+		int c;
+		cout<<"enter a stack no. to remove value:";
+		cin>>c;
+		if(c==1)
+		{
+		if(isempty(1))
+			{
+				cout<<"stack1 is empty....";
+			}
+		else
+			{
+		int element=arr[top1];
+		arr[top1]=NULL;
+		top1--;
+		cout<<element<<" is deleted from stack 1...";
+		return element;
+		}
+		}
+		else
+		{
+			if(isempty(2))
+			{
+				cout<<"stack2 is empty....";
+			}
+		else
+			{
+		int element=arr[top2];
+		arr[top2]=NULL;
+		top2++;
+		cout<<element<<" is deleted from stack 2...";
+		return element;
+			}
+		}	
+}
+
+void tstack::display()
+{
+	if(!isempty(1))
+	{
+		
+	for(int i=0;i<=top1;i++)
+	{
+		cout<<"element of arr["<<i<<"] is:"<<arr[i]<<endl;
+	}
+	}
+	if(!isempty(2))
+	{
+	for(int i=N-1;i>=top2;i--)
+	{
+		cout<<"element of arr["<<i<<"] is:"<<arr[i]<<endl;
+	}
+	}	
+}
+
+
+
+
+_______________________ Application ______________________
+#include<iostream>
+using namespace std;
+#include"stack_class.h"
+void main()
+{
+	tstack a;
+	int c;
+	do
+	{
+	cout<<"\n\n\nsimple stack program............"<<endl
+		<<"1. puch a value."<<endl
+		<<"2. pop a value."<<endl
+		<<"3. display a value."<<endl
+		<<"4. Exit."<<endl
+		<<"Enter your choice......"<<endl;
+	cin>>c;
+	
+		switch(c)
+		{
+		case 1:
+			a.push();
+			break;
+		case 2:
+			a.pop();
+			break;
+		case 3:
+			a.display();
+			break;
+		case 4:
+			exit(0);
+			break;
+	
+		default:
+			cout<<"\n\n wrong choice...";
+		}
+	}while(c!=4);
+}

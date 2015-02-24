@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JJ</Machine>
+    <WindowsUser>Jay</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.exe">
+      <PackagePath>Data Structure Tutorial.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.pdb">
+      <PackagePath>Data Structure Tutorial.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\back.jpg">
+      <PackagePath>back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\back1.jpg">
+      <PackagePath>back1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\example.mp4">
+      <PackagePath>DS\Stack\example.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\pop.mp4">
+      <PackagePath>DS\Stack\pop.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\push.mp4">
+      <PackagePath>DS\Stack\push.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\top.mp4">
+      <PackagePath>DS\Stack\top.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\pop.wmv">
+      <PackagePath>DS\Stack\pop.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\DS\Stack\push.wmv">
+      <PackagePath>DS\Stack\push.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\ItemPage.xaml">
+      <PackagePath>ItemPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\Stack.xaml">
+      <PackagePath>Stack.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial-4\Data Structure Tutorial\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

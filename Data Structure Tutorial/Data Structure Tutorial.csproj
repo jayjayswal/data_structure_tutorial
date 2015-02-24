@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B50501B9-441F-4A9A-903E-BC9F187E3CE8}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data_Structure_Tutorial</RootNamespace>
+    <AssemblyName>Data Structure Tutorial</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>Data Structure Tutorial_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>7236C2EA83527FD37940CEDE4F941ED651E1B85C</PackageCertificateThumbprint>
+    <AppxPackageDir>C:\Users\Jay\Desktop\as1\</AppxPackageDir>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <SDKReference Include="MSAdvertisingXaml, Version=6.1">
+      <Name>Microsoft Advertising SDK for Windows 8 %28Xaml%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="ItemPage.xaml.cs">
+      <DependentUpon>ItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Data Structure Tutorial_StoreKey.pfx" />
+    <None Include="Data Structure Tutorial_TemporaryKey.pfx" />
+    <None Include="DS\linklist\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\310x150.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="back.jpg" />
+    <Content Include="back1.jpg" />
+    <Content Include="Common\ReadMe.txt" />
+    <Content Include="DS\2stack.txt" />
+    <Content Include="DS\2stack\1st.mp4" />
+    <Content Include="DS\2stack\empty.mp4" />
+    <Content Include="DS\2stack\full.mp4" />
+    <Content Include="DS\2stack\insert.mp4" />
+    <Content Include="DS\2stack\remove.mp4" />
+    <Content Include="DS\2stack\TwoStacksOneArray.png" />
+    <Content Include="DS\btree\btree makeing_1.mp4" />
+    <Content Include="DS\btree\btree view_1.mp4" />
+    <Content Include="DS\btree\btree_1.mp4" />
+    <Content Include="DS\btree\inorder_1.mp4" />
+    <Content Include="DS\btree\make tree example_1.mp4" />
+    <Content Include="DS\btree\postorder_1.mp4" />
+    <Content Include="DS\btree\preorder_1.mp4" />
+    <Content Include="DS\cdoublell.txt" />
+    <Content Include="DS\cdoublyll\add as first_1.mp4" />
+    <Content Include="DS\cdoublyll\add between_1.mp4" />
+    <Content Include="DS\cdoublyll\add_1.mp4" />
+    <Content Include="DS\cdoublyll\delete between_1.mp4" />
+    <Content Include="DS\cdoublyll\delete from head_1.mp4" />
+    <Content Include="DS\cdoublyll\delete from last_1.mp4" />
+    <Content Include="DS\cdoublyll\Untitled-1_1.mp4" />
+    <Content Include="DS\clinklist.txt" />
+    <Content Include="DS\clinklist\add as first_1.mp4" />
+    <Content Include="DS\clinklist\add between_1.mp4" />
+    <Content Include="DS\clinklist\add_1.mp4" />
+    <Content Include="DS\clinklist\delete between_1.mp4" />
+    <Content Include="DS\clinklist\delete from head_1.mp4" />
+    <Content Include="DS\clinklist\delete from last_1.mp4" />
+    <Content Include="DS\clinklist\Untitled-1_1.mp4" />
+    <Content Include="DS\cqueue.txt" />
+    <Content Include="DS\cqueue\add_1.mp4" />
+    <Content Include="DS\cqueue\delete_1.mp4" />
+    <Content Include="DS\cqueue\empty_1.mp4" />
+    <Content Include="DS\cqueue\isfull_1.mp4" />
+    <Content Include="DS\doublell.txt" />
+    <Content Include="DS\doublell\add as first_1.mp4" />
+    <Content Include="DS\doublell\add between_1.mp4" />
+    <Content Include="DS\doublell\add_1.mp4" />
+    <Content Include="DS\doublell\delete between_1.mp4" />
+    <Content Include="DS\doublell\delete from head_1.mp4" />
+    <Content Include="DS\doublell\delete from last_1.mp4" />
+    <Content Include="DS\doublell\Untitled-1_1.mp4" />
+    <Content Include="DS\linklist.txt" />
+    <Content Include="DS\linklist\add as first_1.mp4" />
+    <Content Include="DS\linklist\add between_1.mp4" />
+    <Content Include="DS\linklist\add_1.mp4" />
+    <Content Include="DS\linklist\delete between_1.mp4" />
+    <Content Include="DS\linklist\delete from head_1.mp4" />
+    <Content Include="DS\linklist\delete from last_1.mp4" />
+    <Content Include="DS\linklist\head_1.mp4" />
+    <Content Include="DS\linklist\LINK_1.mp4" />
+    <Content Include="DS\queue.txt" />
+    <Content Include="DS\queue\add_1.mp4" />
+    <Content Include="DS\queue\remove_1.mp4" />
+    <Content Include="DS\queue\reset_1.mp4" />
+    <Content Include="DS\Stack.txt" />
+    <Content Include="DS\Stack\example.mp4" />
+    <Content Include="DS\Stack\pop.mp4" />
+    <Content Include="DS\Stack\push.mp4" />
+    <Content Include="DS\Stack\top.mp4" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

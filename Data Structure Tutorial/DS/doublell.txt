@@ -1,0 +1,265 @@
+Class Definition 
+class linklist
+{
+	int data;
+	linklist *head;
+	linklist *next;
+	linklist *pre;
+public:
+	linklist();
+	void add(int);
+	void addas_first(int);
+	void addas_pos(int,int);
+	void display();
+	void dele_first();
+	void dele_last();
+	void dele_bet(int i);
+	void count();
+	void search(int);
+};
+
+Implementation
+
+#include<iostream>
+using namespace std;
+#include"linklistclass.h"
+
+linklist::linklist()
+{
+	head=NULL;
+}
+void linklist::addas_first(int i)
+{
+	linklist *q;
+	q=new linklist;
+	q->data=i;
+	q->next=head;
+	head->pre=q;
+	q->pre=NULL;
+	head=q;
+}
+void linklist::add(int i)
+{
+	linklist *t,*q;
+	t=head;
+	if(head==NULL)
+	{
+		
+		head=new linklist;
+		head->data=i;
+		head->next=NULL;
+		head->pre=NULL;
+	}
+	else
+	{
+		while(t->next!=NULL)
+			t=t->next;
+		q=new linklist;
+		q->data=i;
+		t->next=q;
+		q->pre=t;
+		q->next=NULL;
+		
+	}
+}
+void linklist::addas_pos(int i,int j)
+{
+	int k=0,g=0;
+	linklist *t,*q,*d;
+	t=head;	
+	q=new linklist;
+	q->data=j;
+	while(k<i)
+	{
+		t=t->next;
+		k++;
+	}
+	q->next=t->next;
+	q->next->pre=q;
+	t->next=q;
+	q->pre=t;
+	
+	
+}
+
+void linklist::dele_first()
+{
+	if(head==NULL)
+	{
+		cout<<"There no element to delete...\n";
+	}
+	else
+	{
+	linklist *q;
+	q=head;
+	head=head->next;
+	head->pre=NULL;
+	free(q);
+	}
+}
+void linklist::dele_last()
+{
+	if(head==NULL)
+	{
+		cout<<"There no element to delete...\n";
+	}
+	else
+	{
+	linklist *q,*t;
+	q=head;
+	while(q->next->next!=NULL)
+	{
+		q=q->next;
+	}
+	t=q->next;
+	q->next=NULL;
+	free(t);
+	}
+}
+void linklist::dele_bet(int i)
+{
+
+	linklist *q,*t;
+	q=head;
+	int k=0;
+	while(k<i)
+	{
+		q=q->next;
+		k++;
+	}
+	t=q->next;
+	q->next=t->next;
+	t->next->pre=q;
+	free(t);
+	
+}
+void linklist::display()
+{
+	cout<<"Display:";
+	linklist *t;
+	t=head;
+	while(t!=NULL)
+	{
+		cout<<t->data<<endl;
+				t=t->next;
+	}
+}
+void linklist::count()
+{
+	linklist *q;
+	q=head;
+	int j=0;
+	while(q->next!=NULL)
+	{
+		q=q->next;
+		j++;
+	}
+	cout<<"numbre of nodes is:"<<j+1<<endl;
+}
+void linklist::search(int k)
+{
+	int i;
+	int f=0;
+	linklist *q;
+	q=head;
+	for(i=0;q->next!=NULL;i++)
+	{
+		if(q->data==k)
+		{
+			f=1;
+			break;
+		}
+		q=q->next;
+	}
+	if(q->data==k)
+	{
+		f=1;
+	}
+	if(f==1)
+	{
+		cout<<"position of value is:"<<i<<endl;
+	}
+	else
+	{
+		cout<<"Element is not found...";
+	}
+}
+
+APPLICATION
+
+#include<iostream>
+using namespace std;
+#include"linklistclass.h"
+void main()
+{
+	linklist l;
+	int c,a,b;
+	
+	
+	do
+	{
+		cout<<".....................MENU............................"<<endl
+		<<"Press 1. to add a value."<<endl
+		<<"press 2. to add value in first position. "<<endl
+		<<"Press 3. to add value at some position."<<endl
+		<<"Press 4. display values."<<endl
+		<<"press 5. to delete value from first."<<endl
+		<<"press 6. to delete value from last."<<endl
+		<<"press 7. to delete value from between."<<endl
+		<<"press 8. to count a nodes."<<endl
+		<<"press 9. to search a value"<<endl
+		<<"press 10. to exit."<<endl
+		<<"Enter your choice....."<<endl;
+	cin>>c;
+		switch(c)
+		{
+		case 1:
+			cout<<"Enter a element to add :"<<endl;
+			cin>>a;
+			l.add(a);
+			l.display();
+			break;
+		case 2:
+			cout<<"Enter a element to add :"<<endl;
+			cin>>a;
+			l.addas_first(a);
+			l.display();
+			break;
+		case 3:
+			cout<<"Enter a element to add :"<<endl;
+			cin>>a;
+			cout<<"Enter a position:";
+			cin>>b;
+			l.addas_pos(b,a);
+			l.display();
+			break;
+		case 4:
+			l.display();
+			break;
+		case 5:
+			l.dele_first();
+			l.display();
+			break;
+		case 6:
+			l.dele_last();
+			l.display();
+			break;
+		case 7:
+			cout<<"Enter a position:";
+			cin>>b;
+			l.dele_bet(b);
+			l.display();
+			break;
+		case 8:
+			l.count();
+			break;
+		case 9:
+			cout<<"Enter a element to search :"<<endl;
+			cin>>a;
+			l.search(a);
+			break;
+		case 10:
+			exit(0);
+		}
+	}while(c!=10);
+}

@@ -1,0 +1,162 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="Data_Structure_Tutorial.Stack"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Data_Structure_Tutorial"
+    xmlns:common="using:Data_Structure_Tutorial.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Main Menu</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="339*"/>
+            <ColumnDefinition Width="344*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="back1.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='5' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="92" Margin="417,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305">
+            	<Run FontSize="35" Text="      "/>
+            	<Run FontSize="45" Text="   "/>
+            	<Run FontSize="45" Text="Stack"/>
+            	<LineBreak/>
+            	<Run FontSize="30" Text="Implemented by Array"/>
+            	<LineBreak/>
+            </TextBlock>
+        </Grid>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="618" Grid.Row="1" VerticalAlignment="Top" Width="1356">
+            <Grid Height="4083" Width="1360">
+                <StackPanel HorizontalAlignment="Left" Height="3784" Margin="10,0,0,0" VerticalAlignment="Top" Width="1309">
+                    <TextBlock TextWrapping="Wrap" Text="What is stack? " Height="53" FontSize="30" Foreground="#FF0E0D0D"/>
+                    <TextBlock TextWrapping="Wrap" Text="stack is a last in, first out (LIFO) abstract data type and linear data structure. A stack can have any abstract data type as an element, but is characterized by two fundamental operations, called push and pop." Height="143" FontSize="30" Foreground="#FF0A0909"/>
+                    <TextBlock TextWrapping="Wrap" Text="Push( ) :-" Height="44" FontSize="30" Foreground="#FF040404"/>
+                    <TextBlock TextWrapping="Wrap" Height="146" FontSize="30" Foreground="#FF0E0D0D">
+                    	<Run Text="The push operation adds a new item to the top of the stack. Push is use to insert a new value in stack."/>
+                    	<LineBreak/>
+                    	<Run/>
+                    	<LineBreak/>
+                    	<Run Text="Example:-"/>
+                    </TextBlock>
+                    <MediaElement Name="a"  AutoPlay="False" Source="DS/Stack/push.wmv"  Height ="216" Margin="0,0,684,0" />
+                    <Grid x:Name="ag" Height="39" Opacity="0.7"  >
+                    	<Grid.Background>
+                    		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    			<GradientStop Color="#FF3E3C3C" Offset="0.918"/>
+                    			<GradientStop Color="White"/>
+                    		</LinearGradientBrush>
+                    	</Grid.Background>
+                        <Button x:ConnectionId='3' x:Name="a1" Content="Play" HorizontalAlignment="Left" Margin="10,0,0,3" VerticalAlignment="Bottom" Width="102" Height="33"               Background="#FF464444" BorderThickness="0"/>
+                        <Button x:ConnectionId='4'  Name="a2" Content="Stop" HorizontalAlignment="Right" Margin="0,2,1095,0" VerticalAlignment="Top" Width="102" Background="#FF464444" BorderThickness="0" Visibility="Collapsed"              />
+                    </Grid>
+                    <TextBlock TextWrapping="Wrap" Height="77" FontSize="30" Foreground="#FF0C0B0B">
+                    	<Run/>
+                    	<LineBreak/>
+                    	<Run Text="Pop( ) :-"/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Width="1299" Height="211" Foreground="#FF0F0F0F" FontSize="30">
+        	            <Run Text="pop( ) is use to get(delete) a top value from the stak. pop( ) return last entered value."/>
+        	            <LineBreak/>
+        	            <Run/>
+        	            <LineBreak/>
+        	            <Run Text="Example :-"/>
+                    </TextBlock>
+                    <MediaElement Name="b" Source="DS/Stack/pop.wmv"   AutoPlay="False"  Height ="325"/>
+                    <Grid x:Name="bg" Height="39" Opacity="0.7"  >
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF3E3C3C" Offset="0.918"/>
+                                <GradientStop Color="White"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Button x:ConnectionId='1' x:Name="b1" Content="Play" HorizontalAlignment="Left" Margin="10,0,0,3" VerticalAlignment="Bottom" Width="102" Height="33"               Background="#FF464444" BorderThickness="0"/>
+                        <Button x:ConnectionId='2'  Name="b2" Content="Stop" HorizontalAlignment="Right" Margin="0,2,1095,0" VerticalAlignment="Top" Width="102" Background="#FF464444" BorderThickness="0" Visibility="Collapsed"              />
+                    </Grid>
+                    <TextBlock TextWrapping="Wrap"  FontSize="30" Foreground="#FF060606">
+        	<Run Text="Top value :-"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="TOP is one integer which store index number of last entered value."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="When Stack initializes at that time, no value stored in a stack OR a stack is empty."/>
+        	<LineBreak/>
+        	<Run Text="So that time Top value is  -1 . stack is then considered to be in an underflow state."/>
+        	<LineBreak/>
+        	<Run Text="Any time when new value push then first increment top [ (top=top+1) OR (++top) ] value then store a value."/>
+        	<LineBreak/>
+        	<Run Text="Example:- array[++top] = value;"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="And when Top value is (stack size - 1) then the stack is full and does not contain enough space to accept the given item, the stack is then considered to be in an overflow state."/>
+        	<LineBreak/>
+        	<Run Text="Any time when we pop value then we decrement top value [ (top=top-1) OR (top--) ]"/>
+        	<LineBreak/>
+        	<Run Text="Example:-"/>
+                    </TextBlock>
+                    
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+        
+
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JJ</Machine>
+    <WindowsUser>Jay</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>353485F884FAF8D8744C9474D4C8D52D120626F94182D0151D74C2695FDF305A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>46643JJ.DataStructureTutorial_2.0.0.0_neutral__pz6vwc1v83j2y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>46643JJ.DataStructureTutorial_pz6vwc1v83j2y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>46643JJ.DataStructureTutorial</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=F0A64C87-6B61-47E0-A193-8194D0A0DA81</RegisteredPackagePublisher>
+    <RegisteredVersion>2.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-17T04:49:47.649</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.exe">
+      <PackagePath>Data Structure Tutorial.exe</PackagePath>
+      <Modified>2013-02-17T04:49:46.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Data Structure Tutorial.pdb">
+      <PackagePath>Data Structure Tutorial.pdb</PackagePath>
+      <Modified>2013-02-17T04:49:46.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-01-24T05:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-01-24T05:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.xml">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.xml</PackagePath>
+      <Modified>2013-01-24T06:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.xml">
+      <PackagePath>MicrosoftAdvertising.xml</PackagePath>
+      <Modified>2013-01-24T06:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-01-24T05:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xaml">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-01-24T05:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingXaml\6.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-01-24T05:07:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-01T02:33:25.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-06T13:57:18.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-06T13:58:16.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-06T13:58:43.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-06T13:57:56.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\TwoStacksOneArray.png">
+      <PackagePath>DS\2stack\TwoStacksOneArray.png</PackagePath>
+      <Modified>2013-01-13T07:54:11.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\back.jpg">
+      <PackagePath>back.jpg</PackagePath>
+      <Modified>2013-02-17T04:25:14.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\back1.jpg">
+      <PackagePath>back1.jpg</PackagePath>
+      <Modified>2013-01-06T16:22:46.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-01-06T16:14:15.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack.txt">
+      <PackagePath>DS\2stack.txt</PackagePath>
+      <Modified>2013-01-17T19:01:14.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublell.txt">
+      <PackagePath>DS\cdoublell.txt</PackagePath>
+      <Modified>2013-01-17T19:00:51.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist.txt">
+      <PackagePath>DS\clinklist.txt</PackagePath>
+      <Modified>2013-01-17T19:00:18.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cqueue.txt">
+      <PackagePath>DS\cqueue.txt</PackagePath>
+      <Modified>2013-01-17T18:59:04.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell.txt">
+      <PackagePath>DS\doublell.txt</PackagePath>
+      <Modified>2013-01-17T18:58:42.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist.txt">
+      <PackagePath>DS\linklist.txt</PackagePath>
+      <Modified>2013-01-17T18:58:05.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\queue.txt">
+      <PackagePath>DS\queue.txt</PackagePath>
+      <Modified>2013-01-17T18:57:30.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\Stack.txt">
+      <PackagePath>DS\Stack.txt</PackagePath>
+      <Modified>2013-01-17T18:56:49.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\1st.mp4">
+      <PackagePath>DS\2stack\1st.mp4</PackagePath>
+      <Modified>2013-01-13T10:11:51.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\empty.mp4">
+      <PackagePath>DS\2stack\empty.mp4</PackagePath>
+      <Modified>2013-01-13T10:11:51.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\full.mp4">
+      <PackagePath>DS\2stack\full.mp4</PackagePath>
+      <Modified>2013-01-17T13:21:59.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\insert.mp4">
+      <PackagePath>DS\2stack\insert.mp4</PackagePath>
+      <Modified>2013-01-17T13:22:01.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\2stack\remove.mp4">
+      <PackagePath>DS\2stack\remove.mp4</PackagePath>
+      <Modified>2013-01-17T13:22:02.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\btree makeing_1.mp4">
+      <PackagePath>DS\btree\btree makeing_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:49:59.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\btree view_1.mp4">
+      <PackagePath>DS\btree\btree view_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:02:15.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\btree_1.mp4">
+      <PackagePath>DS\btree\btree_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:00:28.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\inorder_1.mp4">
+      <PackagePath>DS\btree\inorder_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:05:27.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\make tree example_1.mp4">
+      <PackagePath>DS\btree\make tree example_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:02:15.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\postorder_1.mp4">
+      <PackagePath>DS\btree\postorder_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:05:40.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\btree\preorder_1.mp4">
+      <PackagePath>DS\btree\preorder_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:05:32.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\add as first_1.mp4">
+      <PackagePath>DS\cdoublyll\add as first_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:52.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\add between_1.mp4">
+      <PackagePath>DS\cdoublyll\add between_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:49.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\add_1.mp4">
+      <PackagePath>DS\cdoublyll\add_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:47.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\delete between_1.mp4">
+      <PackagePath>DS\cdoublyll\delete between_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:41.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\delete from head_1.mp4">
+      <PackagePath>DS\cdoublyll\delete from head_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:39.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\delete from last_1.mp4">
+      <PackagePath>DS\cdoublyll\delete from last_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:52:37.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cdoublyll\Untitled-1_1.mp4">
+      <PackagePath>DS\cdoublyll\Untitled-1_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:29:34.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\add as first_1.mp4">
+      <PackagePath>DS\clinklist\add as first_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:40.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\add between_1.mp4">
+      <PackagePath>DS\clinklist\add between_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:43.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\add_1.mp4">
+      <PackagePath>DS\clinklist\add_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:46.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\delete between_1.mp4">
+      <PackagePath>DS\clinklist\delete between_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:49.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\delete from head_1.mp4">
+      <PackagePath>DS\clinklist\delete from head_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:35.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\delete from last_1.mp4">
+      <PackagePath>DS\clinklist\delete from last_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:41:37.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\clinklist\Untitled-1_1.mp4">
+      <PackagePath>DS\clinklist\Untitled-1_1.mp4</PackagePath>
+      <Modified>2013-01-13T15:46:13.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cqueue\add_1.mp4">
+      <PackagePath>DS\cqueue\add_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:39:15.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cqueue\delete_1.mp4">
+      <PackagePath>DS\cqueue\delete_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:39:16.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cqueue\empty_1.mp4">
+      <PackagePath>DS\cqueue\empty_1.mp4</PackagePath>
+      <Modified>2013-01-17T16:15:44.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\cqueue\isfull_1.mp4">
+      <PackagePath>DS\cqueue\isfull_1.mp4</PackagePath>
+      <Modified>2013-01-17T13:39:18.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\add as first_1.mp4">
+      <PackagePath>DS\doublell\add as first_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:35:09.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\add between_1.mp4">
+      <PackagePath>DS\doublell\add between_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:35:06.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\add_1.mp4">
+      <PackagePath>DS\doublell\add_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:35:03.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\delete between_1.mp4">
+      <PackagePath>DS\doublell\delete between_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:34:57.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\delete from head_1.mp4">
+      <PackagePath>DS\doublell\delete from head_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:34:54.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\delete from last_1.mp4">
+      <PackagePath>DS\doublell\delete from last_1.mp4</PackagePath>
+      <Modified>2013-01-17T03:34:52.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\doublell\Untitled-1_1.mp4">
+      <PackagePath>DS\doublell\Untitled-1_1.mp4</PackagePath>
+      <Modified>2013-01-16T08:34:54.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\add as first_1.mp4">
+      <PackagePath>DS\linklist\add as first_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:20:08.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\add between_1.mp4">
+      <PackagePath>DS\linklist\add between_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:20:07.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\add_1.mp4">
+      <PackagePath>DS\linklist\add_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:20:05.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\delete between_1.mp4">
+      <PackagePath>DS\linklist\delete between_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:20:01.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\delete from head_1.mp4">
+      <PackagePath>DS\linklist\delete from head_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:19:59.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\delete from last_1.mp4">
+      <PackagePath>DS\linklist\delete from last_1.mp4</PackagePath>
+      <Modified>2013-01-17T04:19:57.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\head_1.mp4">
+      <PackagePath>DS\linklist\head_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:13:03.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\linklist\LINK_1.mp4">
+      <PackagePath>DS\linklist\LINK_1.mp4</PackagePath>
+      <Modified>2013-01-16T09:13:03.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\queue\add_1.mp4">
+      <PackagePath>DS\queue\add_1.mp4</PackagePath>
+      <Modified>2013-01-13T11:06:23.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\queue\remove_1.mp4">
+      <PackagePath>DS\queue\remove_1.mp4</PackagePath>
+      <Modified>2013-01-13T11:06:23.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\queue\reset_1.mp4">
+      <PackagePath>DS\queue\reset_1.mp4</PackagePath>
+      <Modified>2013-01-13T11:06:23.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\Stack\example.mp4">
+      <PackagePath>DS\Stack\example.mp4</PackagePath>
+      <Modified>2013-01-17T15:29:14.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\Stack\pop.mp4">
+      <PackagePath>DS\Stack\pop.mp4</PackagePath>
+      <Modified>2013-01-17T15:29:10.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\Stack\push.mp4">
+      <PackagePath>DS\Stack\push.mp4</PackagePath>
+      <Modified>2013-01-17T15:29:16.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\DS\Stack\top.mp4">
+      <PackagePath>DS\Stack\top.mp4</PackagePath>
+      <Modified>2013-01-17T15:29:19.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-01-20T05:27:38.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T10:49:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\ItemPage.xaml">
+      <PackagePath>ItemPage.xaml</PackagePath>
+      <Modified>2013-02-11T15:17:43.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-02-17T04:26:20.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jay\Desktop\Data Structure Tutorial\Data Structure Tutorial\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-17T04:25:27.507</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

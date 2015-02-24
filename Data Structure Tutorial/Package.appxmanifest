@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="46643JJ.DataStructureTutorial" Publisher="CN=F0A64C87-6B61-47E0-A193-8194D0A0DA81" Version="2.0.0.0" />
+  <Properties>
+    <DisplayName>Data Structure Tutorial</DisplayName>
+    <PublisherDisplayName>JJ</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Data_Structure_Tutorial.App">
+      <VisualElements DisplayName="Data Structure Tutorial" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Learn Data Structure(DS) with effective and easy manner.This application explains any DS with animations. Animations will help you to visualise real Structure of any  Data Structure so that  you can easily understand function of it.Enjoy.." ForegroundText="light" BackgroundColor="#66CC66">
+        <DefaultTile ShowName="allLogos" ShortName="DST" WideLogo="Assets\310x150.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

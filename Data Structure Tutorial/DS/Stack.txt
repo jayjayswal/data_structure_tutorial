@@ -1,0 +1,146 @@
+Class Definition 
+
+#define N 4
+class stack
+{
+	int arr[N],top;
+public:
+	stack()
+	{
+		top=-1;
+	}
+	void push(int);
+	int pop();
+	bool isempty();
+	bool isfull();
+	void display();
+	int peep();
+};
+
+
+Implementation
+
+#include<iostream>
+using namespace std;
+
+
+bool stack::isfull()
+{
+	if(top+1>=N)
+	{
+		cout<<"stack is overflow\n";
+		return true;
+	}
+	else
+		return false;
+}
+bool stack::isempty()
+{
+	if(top==-1)
+	{
+		cout<<"Stack is underflow";
+		return true;
+	}
+	else
+		return false;
+}
+void stack::push(int a)
+{
+	if(isfull()==true)
+	{
+		cout<<"stack is full.....";
+	}
+	else
+	{
+
+		top++;
+		arr[top]=a;
+      cout<<endl<<a<<"is inserted into stack.";
+	}
+}
+int stack::pop()
+{
+	if(isempty()==true)
+	{
+		cout<<"stack is empty....";
+	}
+	else
+	{
+		int element=arr[top];
+		arr[top]=NULL;
+		top--;
+  	cout<<element<<" is deleted...";;
+		return element;
+	}
+}
+void stack::display()
+{
+	if(isempty()==true)
+	{
+		cout<<"\n stack is empty....";
+	}
+	else
+	{
+	for(int i=0;i<=top;i++)
+	{
+      cout<<"element of arr["<<i<<"] is:"<<arr[i]<<endl;
+		return element;
+	}
+} 
+int stack::peep()
+{
+	if(isempty()==true)
+	{
+		cout<<"\n stack is empty....";
+	}
+	else
+	{
+		cout<<"Last entered element is :"<<arr[top]<<endl;
+		return arr[top];
+	}
+}
+
+APPLICATION
+
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	stack a;
+	int c;
+	do
+	{
+	cout<<"\n\n\nsimple stack program............"<<endl
+		<<"1. puch a value."<<endl
+		<<"2. pop a value."<<endl
+		<<"3. display a value."<<endl
+		<<"4. peep value."<<endl
+		<<"5. Exit."<<endl
+		<<"Enter your choice......"<<endl;
+	cin>>c;
+		switch(c)
+		{
+		case 1:
+		int element;
+		cout<<"Enter a element:";
+		cin>>element;
+			a.push(element);
+			break;
+		case 2:
+			a.pop();
+			break;
+		case 3:
+			a.display();
+			break;
+		case 5:
+			exit(0);
+			break;
+		case 4:
+			a.peep();
+			break;
+		default:
+			cout<<"\n\n wrong choice...";
+		}
+	}while(c!=5);
+}
